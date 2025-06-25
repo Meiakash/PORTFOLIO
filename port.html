@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mei Akash | Portfolio</title>
+    <link rel="stylesheet" href="port.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+   
+    <section id="home">
+      
+      
+  <nav>
+    <ul>
+      <div class="logo">
+    <img src="03.png" alt="Logo">
+  </div>
+      <li><a href="#home">HOME</a></li>
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="#projects">SKILLS</a></li>
+      <li><a href="#skills">PROJECTS</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+    </ul>
+  </nav>
+        <h1>Hi,</h1>
+<h2>I'M MEIAKASH,</h2>
+<h3 class="typewriter">I AM <span id="type-text"></span></h3>
+
+
+        <div class="image-section">
+      <img src="01.png" alt="Mei Akash" class="profile-pic">
+    </div>
+    </section>
+
+   <section id="about">
+  <h1 class="section-title">About Me</h1>
+  <p class="about-text">
+    I am a passionate programmer currently pursuing my studies in <strong>Computer Science and Engineering</strong>. With a strong interest in technology and problem-solving, 
+    I enjoy exploring various areas of software development, particularly in building dynamic and interactive web applications. 
+    I am always eager to take on creative projects that challenge my skills and allow me to learn new technologies. 
+    Whether it’s designing intuitive user interfaces or developing efficient back-end systems, 
+    I find great satisfaction in bringing ideas to life through code. 
+    My goal is to continuously grow as a developer and contribute to meaningful, innovative solutions in the field of technology.
+  </p>
+</section>
+
+<section id="skills">
+  <h2 class="section-title">Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-bar"><div class="skill-level html"><span>HTML</span><span class="percent">90%</span></div></div>
+    <div class="skill-bar"><div class="skill-level css"><span>CSS</span><span class="percent">85%</span></div></div>
+    <div class="skill-bar"><div class="skill-level js"><span>JavaScript</span><span class="percent">75%</span></div></div>
+    <div class="skill-bar"><div class="skill-level cprog"><span>C Programming</span><span class="percent">80%</span></div></div>
+    <div class="skill-bar"><div class="skill-level java"><span>Java</span><span class="percent">70%</span></div></div>
+    <div class="skill-bar"><div class="skill-level python"><span>Python</span><span class="percent">50%</span></div></div>
+  </div>
+</section>
+   <section id="projects">
+  <h2 class="section-title">Projects</h2>
+  <div class="projects-container">
+    <div class="project-card">
+      <h3>On Duty Management System</h3>
+      <p>A web-based tool designed to manage and streamline student on-duty applications efficiently.
+         It provides interactive dashboards for administrators, detailed application forms for students, 
+          </p>
+      <div class="button-group">
+        <a href="#" target="_blank" class="btn demo-btn">Live Demo</a>
+        <a href="https://github.com/Meiakash/odms" target="_blank" class="btn github-btn">GitHub</a>
+      </div>
+    </div>
+    <div class="project-card">
+      <h3>Stock Prediction System</h3>
+      <p>Developed a stock prediction system using linear regression to analyze
+         historical stock data and forecast future trends. 
+         The system visualizes predicted price movements for the Tesla stock dataset. </p>
+      <div class="button-group">
+        <a href="#" target="_blank" class="btn demo-btn">Live Demo</a>
+        <a href="#" target="_blank" class="btn github-btn">GitHub</a>
+      </div>
+    </div>
+    <div class="project-card">
+      <h3>Simple calculator</h3>
+      <p>A simple and stylish calculator designed with HTML, CSS, and JavaScript with modern user interface. 
+        It enables users to perform basic arithmetic operations like addition, subtraction, multiplication, and division with ease. </p>
+      <div class="button-group">
+        <a href="#" target="_blank" class="btn demo-btn">Live Demo</a>
+        <a href="https://github.com/MEISINCE-2006/interncalc.git" target="_blank" class="btn github-btn">GitHub</a>
+      </div>
+    </div>
+    <div class="project-card">
+      <h3>Wifi card generator</h3>
+      <p> A WiFi Card Generator is a handy tool that creates a card contains scannable QR code. It allows guests to connect to your network instantly by scanning the code,
+         without manually entering the password.</p>
+      <div class="button-group">
+        <a href="https://meisince-2006.github.io/WIFICARDGEN/" target="_blank" class="btn demo-btn">Live Demo</a>
+        <a href="https://github.com/MEISINCE-2006/WIFICARDGEN" target="_blank" class="btn github-btn">GitHub</a>
+      </div>
+    </div>
+  </div>
+</section>
+    <section id="contact">
+  <h1>Contact Me</h1>
+  <form onsubmit="return handleSubmit()">
+    <label for="name">Name</label>
+    <input type="text" id="name" placeholder="Your Name" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="you@email.com" required>
+
+    <label for="message">Message</label>
+    <textarea id="message" placeholder="Your message here..." required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+<div class="social-icons">
+  <a href="https://github.com/MEISINCE-2006" target="_blank" title="GitHub">
+    <i class="fab fa-github"></i>
+  </a>
+  <a href="https://wa.me/qr/LF6TW6DH47YUB1" target="_blank" title="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/mei-akash-b" target="_blank" title="LinkedIn">
+    <i class="fab fa-linkedin"></i>
+  </a>
+  <a href="https://www.instagram.com/mei_akash_2006?igsh=bXZ4ZGk1MzA5bWlt" target="_blank" title="Instagram">
+    <i class="fab fa-instagram"></i>
+  </a>
+</div>
+    <script src="port.js"></script>
+</body>
+</html>
